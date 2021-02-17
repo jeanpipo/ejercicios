@@ -1,3 +1,6 @@
+/**
+ * la clase no debe ser ni extendida ni instanciada desde otra clase.
+ */
 public final class Main {
     private Main() {
 

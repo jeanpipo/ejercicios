@@ -1,5 +1,12 @@
 import java.util.concurrent.Callable;
-final public  class BirdExercise {
+
+/**
+ * 1.- hacer que "Chicken" implemente la interfaz "Bird".
+ * 2.- un "Chicken" pone un "Egg" que nacera como un pollo.
+ * 3.- Eggs de otro tipo de "Bird" nacera del mismo tipo que sean los padres ejemplo (aguila).
+ * 4.- un huevo solo debe romper el cascaron una vez, de lo contrario se debera tirar la siguiente exception "IllegalStateException".
+ */
+public class BirdExercise {
     public static void main(String[] args) throws Exception {
         Chicken chicken = new Chicken();
         Parrot parrot = new Parrot();

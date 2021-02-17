@@ -2,6 +2,9 @@ import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * se debe determinar cuantas veces se repite na cadena de texto dentro de un InputStream
+ */
 public class Needle {
     private static int lastPosition = 0;
 
